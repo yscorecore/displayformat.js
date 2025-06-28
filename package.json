@@ -7,7 +7,8 @@
   "scripts": {
     "build": "tsup",
     "test": "vitest test",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "postversion": "git push && git push --tags"
   },
   "devDependencies": {
     "typescript": "^5.4.2",
