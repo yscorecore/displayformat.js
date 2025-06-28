@@ -1,6 +1,6 @@
 {
   "name": "displayformat-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -15,7 +15,9 @@
     "vitest": "^1.6.0",
     "@types/node": "^20.11.0"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "publishConfig": {
     "access": "public"
   }
